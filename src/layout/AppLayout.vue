@@ -70,8 +70,5 @@ const isOutsideClicked = (event) => {
             <app-footer></app-footer>
         </div>
         <app-config></app-config>
-        <div class="layout-mask"></div>
     </div>
 </template>
-
-<style lang="scss" scoped></style>

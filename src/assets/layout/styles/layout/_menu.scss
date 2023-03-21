@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-
+    height: calc(100% - 10rem);
     .layout-root-menuitem {
         > .layout-menuitem-root-text {
             font-size: 0.857rem;
@@ -152,4 +152,10 @@
 .layout-submenu-enter-active {
     overflow: hidden;
     transition: max-height 1s ease-in-out;
+}
+
+@media (max-height: 550px) {
+    .layout-menu-footer {
+        display: none;
+    }
 }
